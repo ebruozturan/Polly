@@ -1,0 +1,9 @@
+﻿namespace Polly.Domain.DtoModels.SelectModels
+{
+   public class SelectModel
+   {
+      public int Id { get; set; }
+      public string Text { get; set; }
+      public string Value { get; set; }
+   }
+}
